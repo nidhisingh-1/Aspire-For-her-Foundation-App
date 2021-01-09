@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:fontFamily="@font/sanchez"
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:text="✨About Us✨"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:src="@drawable/partner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@font/sanchez"
+            android:background="@color/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Who are we?"
+            android:textAlignment="center"
+            android:textColor="#34AC39"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_weight="8"
+            app:srcCompat="@drawable/aspireicon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/afh" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="2dp"
+            android:fontFamily="@font/sanchez"
+            android:text="Aspire for Her Foundation is a not-for-profit (Section 8) company powered by extraordinary women leaders as mentors and role models. Aspire for Her Foundation primarily works on a C2B (College-to-Business) model creating online and offline programs for its members (18-25 year old women) through partnerships with forward-thinking, diversity-focused organisations and professionals."
+            android:textAlignment="center"
+            android:textColor="@color/black"></TextView>
+    </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/sanchez"
+            android:layout_marginTop="3dp"
+            android:background="@color/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Learn what are you passionate about!"
+            android:textAlignment="center"
+            android:textColor="#34AC39"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:text="Explore courses in Business, Finance, Management, Computer Science, AI, Cybersecurity, Cloud and Virtualisation and from IBM Open P-Tech, edX and VM Ware! Earn digital credentials, and build your resume!"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:fontFamily="@font/sanchez"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_marginTop="10dp"
+            android:src="@drawable/button"
+            android:background="@color/white"
+            android:onClick="explore"
+            android:id="@+id/explorebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <ImageView
+            android:src="@drawable/members"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/mentors"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/changers"
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+        </ImageView>
+
+        <TextView
+            android:fontFamily="@font/sanchez"
+            android:layout_marginTop="3dp"
+            android:background="@color/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Our Team"
+            android:textAlignment="center"
+            android:textColor="#34AC39"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:src="@drawable/chiefmentor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/mandira"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/a"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/b"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/c"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/d"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/e"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/f"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/g"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/h"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <ImageView
+            android:src="@drawable/i"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+        </ImageView>
+
+        <TextView
+            android:fontFamily="@font/sanchez"
+            android:layout_marginTop="3dp"
+            android:background="@color/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ambassador Program"
+            android:textAlignment="center"
+            android:textColor="#34AC39"
+            android:textSize="21dp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:src="@drawable/ambassador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+
+        <TextView
+            android:text="We are a non profit powered by extraordinary women leaders as mentors and role models.
+
+Our objective is to support and mentor 18 to 25 year old college women in choosing their career path and excelling in it.
+
+Our career resources include access to a rich base of mentors, learning opportunities, career previews and a supportive peer community!
+
+We are offering a ONE MONTH unpaid WORK-FROM-HOME externship to young dynamic women to become our Campus Ambassadors from August 9, 2020
+
+This position is open for women (18-25) only."
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:background="@color/white"
+            android:fontFamily="@font/sanchez"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageButton
+            android:background="@color/white"
+            android:onClick="apply"
+            android:id="@+id/applybtn"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/apply"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

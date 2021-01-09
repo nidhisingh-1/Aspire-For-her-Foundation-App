@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAlignment="center"
+            tools:ignore="Suspicious0dp" />
+
+        <ImageView
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/become"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/aspireicon"
+                android:layout_width="100dp"
+                android:layout_height="100dp">
+
+            </ImageView>
+
+            <ImageButton
+                android:onClick="signup"
+                android:id="@+id/signupbtn"
+                android:paddingTop="9dp"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:src="@drawable/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+        </LinearLayout>
+
+        <ImageView
+            android:src="@drawable/supporter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

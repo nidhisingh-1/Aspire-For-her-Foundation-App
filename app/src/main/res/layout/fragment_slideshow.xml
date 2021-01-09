@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_slideshow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textAlignment="center"
+            tools:ignore="Suspicious0dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:src="@drawable/mentor">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/instagram"
+                android:onClick="instapage"
+                android:background="@color/white"
+                android:src="@drawable/istaicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="twittterpage"
+                android:id="@+id/twittorbtn"
+                android:background="@color/white"
+                android:src="@drawable/twittericon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="fbpage"
+                android:id="@+id/fbbtn"
+                android:background="@color/white"
+                android:src="@drawable/fbicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="lipage"
+                android:id="@+id/libtn"
+                android:background="@color/white"
+                android:src="@drawable/linkedinicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+
+            <ImageButton
+                android:onClick="ytpage"
+                android:id="@+id/ytbtn"
+                android:background="@color/white"
+                android:src="@drawable/youtubeicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/sanchez"
+            android:background="@color/lemon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Learn More About Us!"
+            android:textAlignment="center"
+            android:textColor="#34AC39"
+            android:textSize="25dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="https://www.aspireforher.org/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
